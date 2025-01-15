@@ -23,9 +23,9 @@
 
                 <a href="https://www.jd.com/" target="_blank">在新窗口下打开京东</a>
                 <a href="mailto:1113124627@qq.com">给我发邮件</a>
-                <a href="https://www.taobao.com/" target="_blank">在新窗口下打开淘宝</a>
-                <br>
-                <img src="D:\gitlearn\my_first_git\namtan.webp" alt="namtan" width="200" height="200">
+                <a href="#pd">跳到页面底部</a>
+                <div><img src="D:\gitlearn\my_first_git\namtan.webp" alt="namtan" width="200" height="200"></div>
+                
             <hr>
             
             <hr>
@@ -33,9 +33,9 @@
                     <u>这个?</u> <i>这个?</i>
                     <div>&lt;!--这一段注释需要出现在页面里面--&gt;</div>
                     <pre>
-                            function a(){
-                                return 8    
-                            }
+        function a(){
+            return 8    
+        }
                     </pre>
             <hr>
                 
@@ -62,17 +62,17 @@
             <hr>
 
             <hr>
-                班级<br>
-                    &nbsp; &nbsp; &nbsp; 三年二班<br>
-                老师<br>
-                &nbsp; &nbsp; &nbsp; 张老师<br>
-                &nbsp; &nbsp; &nbsp; 李老师<br>
-                &nbsp; &nbsp; &nbsp; 王老师<br>
+                班级
+                    <dd>三年二班</dd>
+                老师
+                <dd>张老师</dd>
+                <dd>李老师</dd>
+                <dd>王老师</dd>
                 学生<br>
-                &nbsp; &nbsp; &nbsp; 小明<br>
-                &nbsp; &nbsp; &nbsp; 豆豆<br>
+                <dd>小明</dd>
+                <dd>豆豆</dd>
             <hr>
-                <strong>GOOGLE 搜索</strong>
+                <p style="font-size:150%;"><strong>Google 搜索</strong></p>
                 <form action="https://www.google.com/search" target="_blank">
                     <input type="hidden" name="ie" value="UTF-8">
                     <input type="hidden" name="sourceid" value="UTF">
@@ -82,7 +82,8 @@
             <hr>
             <hr>
                 <div>个人信息调查表</div>
-                <input type="radio">男 <input type="radio">女
+                <label><input type="radio">男</label>
+                <label><input type="radio">女</label>
                 <div>年龄</div>
                 <select name="year" id="1234">
                     <optgroup label="少年">
@@ -93,8 +94,30 @@
                         <option value="13-15">13到15岁</option>
                         <option value="16-18">16到18岁</option>
                     </optgroup>
+                    <optgroup label="少年">
+                        <option value="1-6">1到6岁</option>
+                        <option value="6-12">6到12岁</option>
+                    </optgroup>
                 </select>
-            <hr>
+                <div>生日</div>
+                <dd>
+                    <input type="data" value="2021-1-04" name="birthday">
+                </dd>
+                <div>生辰</div>
+                <dd><input type="time"></dd>
+                <div>照片</div>
+                <dd>点我上传照片, 我比文件上传按钮好看</dd>
+                <div>自我介绍</div>
+                <textarea>&lt;textarea&gt;</textarea>
+                <fieldset disabled>
+                    <legend>这里全部禁用了</legend>
+                    <input type="text"> <input type="text">
+                    <input type="text"> <input type="text">
+                </fieldset>
+                <hr>
+                <hr>
+                   <p id="pd">页面底部</p> 
+                <hr>
 
 
 </body>
