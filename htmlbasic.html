@@ -1,7 +1,8 @@
 <!DOCTYPE HTML>
 <html>
-<title>lorem</title>
+<head><title>Html basic</Html></Html></title></head>
 <body>
+    <title>lorem</title>
     <h1>lorem</h1>
         <h2>Lorem,ipsum.</h2>
             <h3>Lorem, ipsum dolor.</h3>
@@ -62,17 +63,19 @@
             <hr>
 
             <hr>
-                班级
-                    <dd>三年二班</dd>
-                老师
+                <dl>
+                <dt>班级</dt>
+                <dd>三年二班</dd>
+                <dt>老师</dt>
                 <dd>张老师</dd>
                 <dd>李老师</dd>
                 <dd>王老师</dd>
-                学生<br>
+                <dt>学生</dt>
                 <dd>小明</dd>
                 <dd>豆豆</dd>
+                </dl>
             <hr>
-                <p style="font-size:150%;"><strong>Google 搜索</strong></p>
+                <h2>Google 搜索</h2>
                 <form action="https://www.google.com/search" target="_blank">
                     <input type="hidden" name="ie" value="UTF-8">
                     <input type="hidden" name="sourceid" value="UTF">
@@ -81,30 +84,32 @@
                 </form>
             <hr>
             <hr>
-                <div>个人信息调查表</div>
-                <label><input type="radio">男</label>
-                <label><input type="radio">女</label>
+                <div>个人信息调查表</div> <!--如果没有name会发生什么?-->
+                <label><input type="radio" name="gender" value="male">男</label>
+                <label><input type="radio" name="gender" value="female">女</label>
                 <div>年龄</div>
-                <select name="year" id="1234">
-                    <optgroup label="少年">
-                        <option value="1-6">1到6岁</option>
-                        <option value="6-12">6到12岁</option>
-                    </optgroup>
-                    <optgroup label="青年">
-                        <option value="13-15">13到15岁</option>
-                        <option value="16-18">16到18岁</option>
-                    </optgroup>
-                    <optgroup label="少年">
-                        <option value="1-6">1到6岁</option>
-                        <option value="6-12">6到12岁</option>
-                    </optgroup>
-                </select>
+                <dd>
+                    <select name="year" id="1234">
+                        <optgroup label="少年">
+                            <option value="1-6">1到6岁</option>
+                            <option value="6-12">6到12岁</option>
+                        </optgroup>
+                        <optgroup label="青年">
+                            <option value="13-15">13到15岁</option>
+                            <option value="16-18">16到18岁</option>
+                        </optgroup>
+                        <optgroup label="少年">
+                            <option value="1-6">1到6岁</option>
+                            <option value="6-12">6到12岁</option>
+                        </optgroup>
+                    </select>
+                </dd>
                 <div>生日</div>
                 <dd>
                     <input type="data" value="2021-1-04" name="birthday">
                 </dd>
                 <div>生辰</div>
-                <dd><input type="time"></dd>
+                <dd><input type="time" selected value="12:24"></dd>
                 <div>照片</div>
                 <dd>点我上传照片, 我比文件上传按钮好看</dd>
                 <div>自我介绍</div>
@@ -116,9 +121,9 @@
                 </fieldset>
                 <hr>
                 <hr>
-                   <p id="pd">页面底部</p> 
+                  xxx
                 <hr>
-
+                <div id="pd"></div>
 
 </body>
 
